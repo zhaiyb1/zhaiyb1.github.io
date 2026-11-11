@@ -1,12 +1,17 @@
-# Allow ad verification crawlers to read app-ads.txt
-User-agent: AdsBot-Google-Mobile
-Allow: /
+User-agent: Google-adstxt
+Disallow:
 
-User-agent: AdsBot-Google
-Allow: /
+User-agent: Mediapartners-Google
+Disallow:
 
 User-agent: Googlebot
-Allow: /
+Disallow:
+
+User-agent: AdsBot-Google-Mobile
+Disallow:
+
+User-agent: AdsBot-Google
+Disallow:
 
 User-agent: *
 Allow: /
